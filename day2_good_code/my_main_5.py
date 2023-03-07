@@ -7,6 +7,7 @@ def say_hello_to(name):
 
 def main():
     try:
+        print(sys.argv)
         name = sys.argv[1]
         say_hello_to(name)
         
@@ -28,8 +29,8 @@ def main():
     '''
     except Exception as err:
         print(f"Unexpected {err=}, {type(err)=}")
-        #raise
-    '''  
+        #raise  
+    '''
     print("Program ended.")  
 
 if __name__ == "__main__":

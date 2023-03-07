@@ -12,7 +12,7 @@ def main():
         
         print("Done.")
     except:
-      print("Error: No argument")
+        print("Error: No argument")
       
     print("Program ended.")  
 
